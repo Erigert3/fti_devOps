@@ -20,5 +20,5 @@ jobs:
       with:       
        username: ${{ secrets.DOCKER_HUB_USERNAME }} 
        password:  ${{ secrets.DOCKER_HUB_PASSWORD }}
-       repository: erigert/fti_devOps    
+       repository: erigert/fti_devops    
        tags: ${{github.run_number}}
