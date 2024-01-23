@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: erigert3/fti_devOps:latest
+        image: erigert/fti_devops:latest
         imagePullPolicy: Always
         securityContext:
           allowPrivilegeEscalation: false
